@@ -78,6 +78,18 @@ class _HomePageWidgetState extends State<HomePageWidget>
       backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
+          if (!((textController.text != null) && (textController.text != ''))) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text(
+                  'teste',
+                  style: TextStyle(),
+                ),
+                duration: Duration(milliseconds: 4000),
+                backgroundColor: Color(0x00000000),
+              ),
+            );
+          }
           await Navigator.push(
             context,
             MaterialPageRoute(
@@ -189,7 +201,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ),
                           options: FFButtonOptions(
                             width: 50,
-                            height: 40,
+                            height: 50,
                             color: FlutterFlowTheme.of(context).primaryBtnText,
                             textStyle:
                                 FlutterFlowTheme.of(context).subtitle2.override(
@@ -229,7 +241,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ),
                           options: FFButtonOptions(
                             width: 50,
-                            height: 40,
+                            height: 50,
                             color: FlutterFlowTheme.of(context).primaryBtnText,
                             textStyle:
                                 FlutterFlowTheme.of(context).subtitle2.override(
@@ -245,7 +257,6 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             ),
                             borderRadius: 50,
                           ),
-                          showLoadingIndicator: false,
                         ).animated(
                             [animationsMap['buttonOnActionTriggerAnimation']]),
                       ),
