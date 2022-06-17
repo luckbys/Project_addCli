@@ -175,6 +175,11 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                 .whenComplete(() => setState(() {}));
 
                             setState(() => FFAppState().listafull = false);
+                            await (animationsMap[
+                                        'buttonOnActionTriggerAnimation']
+                                    .curvedAnimation
+                                    .parent as AnimationController)
+                                .forward(from: 0.0);
                           },
                           text: '',
                           icon: Icon(
