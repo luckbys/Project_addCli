@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "426863581260",
+    "project_id": "crud-3fc9b",
+    "storage_bucket": "crud-3fc9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426863581260:android:e03f114c9406a0f3f53ce9",
+        "android_client_info": {
+          "package_name": "com.mycompany.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426863581260-belbtf84e1s5assctpb4gl671knmvsjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.crud",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "426863581260-r6gjfcvcf0tmjakt1gns699jt8vev9au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZkB2sqsg674m2Jne0UGDUXxFXlHNAxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426863581260-r6gjfcvcf0tmjakt1gns699jt8vev9au.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "426863581260-2qube96kedu7u43ki3eao6518ishshrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.todoo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426863581260:android:549010e076dbe190f53ce9",
+        "android_client_info": {
+          "package_name": "com.mycompany.todoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426863581260-unto9cqhqkb8bkt9c8d6pdhk2vagpgor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.todoo",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "426863581260-r6gjfcvcf0tmjakt1gns699jt8vev9au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZkB2sqsg674m2Jne0UGDUXxFXlHNAxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426863581260-r6gjfcvcf0tmjakt1gns699jt8vev9au.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "426863581260-2qube96kedu7u43ki3eao6518ishshrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.todoo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
