@@ -33,7 +33,7 @@ class _AdicionarWidgetState extends State<AdicionarWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryText,
+        backgroundColor: Color(0xFF20559C),
         automaticallyImplyLeading: false,
         title: Text(
           'Adicionar',
@@ -181,7 +181,7 @@ class _AdicionarWidgetState extends State<AdicionarWidget> {
                       options: FFButtonOptions(
                         width: 130,
                         height: 40,
-                        color: FlutterFlowTheme.of(context).primaryColor,
+                        color: Color(0xFF20559C),
                         textStyle:
                             FlutterFlowTheme.of(context).subtitle2.override(
                                   fontFamily: 'Poppins',
